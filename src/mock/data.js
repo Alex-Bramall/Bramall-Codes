@@ -11,14 +11,14 @@ export const headData = {
 export const heroData = {
   title: 'Project Manager | Web Developer',
   name: 'Alex Bramall',
-  subtitle: 'The one & only',
+  subtitle: 'E-Commerce Consultant',
   cta: 'Contact',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'profile.JPG',
+  paragraphOne: 'Paragraph about a project that I did.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
