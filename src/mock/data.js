@@ -1,10 +1,10 @@
 import { nanoid } from 'nanoid';
 
-// HEAD DATA
+// HEAD DATA | HTML HEAD TAG
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Bramall Codes', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Alex Bramall Persoanl Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Lipson.png',
+    title: 'Lipson Dental Group',
+    info: 'Wordpress Website',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://lipsondentalgroup.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -68,7 +68,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/producedbybrams',
     },
     {
       id: nanoid(),
@@ -78,17 +78,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/alexanderbramall',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Alex-Bramall',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
