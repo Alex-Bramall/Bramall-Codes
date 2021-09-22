@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Paragraph about a project that I did one time.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
