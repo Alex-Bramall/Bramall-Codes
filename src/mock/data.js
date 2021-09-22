@@ -37,13 +37,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'nomad.png',
+    title: 'Nomad Goods',
     info: '',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
+  /*
+
   {
     id: nanoid(),
     img: 'project.jpg',
@@ -53,6 +55,7 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
+  */
 ];
 
 // CONTACT DATA
@@ -70,11 +73,13 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/producedbybrams',
     },
+
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/producedbybrams/',
     },
+
     {
       id: nanoid(),
       name: 'linkedin',
