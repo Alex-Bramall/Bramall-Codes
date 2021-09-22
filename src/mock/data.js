@@ -4,9 +4,10 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Bramall Codes', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'Alex Bramall Persoanl Website', // e.g: Welcome to my website
+  description: 'Personal webpage for Alex Bramall', // e.g: Welcome to my website
 };
 
+/*
 // HERO DATA
 export const heroData = {
   title: 'Project Manager | Web Developer',
@@ -14,6 +15,7 @@ export const heroData = {
   subtitle: 'E-Commerce Consultant',
   cta: 'Contact',
 };
+*/
 
 // ABOUT DATA
 export const aboutData = {
@@ -60,9 +62,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Get in touch',
+  btn: 'button',
+  email: 'alex@producedbybrams.com',
 };
 
 // FOOTER DATA
