@@ -28,7 +28,7 @@ const Header = () => {
           <h1 className="hero-title">
             {''} <span className="text-color-main">{'Alex Bramall'}</span>
             <br />
-            {'Project Manager | Front End Developer'}
+            {'Technical Project Manager'}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

@@ -7,15 +7,13 @@ export const headData = {
   description: 'Personal webpage for Alex Bramall', // e.g: Welcome to my website
 };
 
-/*
 // HERO DATA
 export const heroData = {
-  title: 'Project Manager | Web Developer',
+  title: 'Developer | Ecommerce',
   name: 'Alex Bramall',
-  subtitle: 'E-Commerce Consultant',
+  subtitle: 'Technical Project Manager',
   cta: 'Contact',
 };
-*/
 
 // ABOUT DATA
 export const aboutData = {
@@ -46,24 +44,22 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
-  /*
 
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Rappy Hour',
     info: '',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
-  */
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Get in touch',
-  btn: 'button',
+  cta: '',
+  btn: '',
   email: 'alex@producedbybrams.com',
 };
 
