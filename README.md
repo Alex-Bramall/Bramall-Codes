@@ -1,6 +1,5 @@
-# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+<!-- # Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio) 
 
-## A clean, beautiful and responsive portfolio template for Developers
 
 <h2 align="center">
   <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
@@ -18,10 +17,10 @@
 ⚡️ Easy site customization\
 ⚡️ Well organized documentation
 
+
 To view a demo example, **[don't click here](https://gatsby-simplefolio.netlify.com/)**\
 To view a live example, **[click here](https://cobidev.com/)**
-
----
+-->
 
 ## Getting Started 🚀
 
@@ -210,7 +209,7 @@ By setting to `false` it will hide the GitHub stars/fork buttons
 
 ```javascript
 export const githubButtons = {
-  isEnabled: true, // true is the default value
+  isEnabled: false, // true is the default value
 };
 ```
 

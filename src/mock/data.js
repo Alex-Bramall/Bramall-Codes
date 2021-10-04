@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA | HTML HEAD TAG
 export const headData = {
-  title: 'Bramall Codes', // e.g: 'Name | Developer'
+  title: 'Alex Bramall | Technical Project Manager', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'Personal webpage for Alex Bramall', // e.g: Welcome to my website
+  description: 'Welcome to my personal website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Developer | Ecommerce',
   name: 'Alex Bramall',
-  subtitle: 'Technical Project Manager',
+  subtitle: 'Front End Dev',
   cta: 'Contact',
 };
 
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Lipson.png',
     title: 'Lipson Dental Group',
-    info: 'Wordpress Website',
+    info: '',
     info2: '',
     url: 'https://lipsondentalgroup.com/',
     repo: '', // if no repo, the button will not show up
