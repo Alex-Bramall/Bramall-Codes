@@ -38,15 +38,18 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne || 'I am web manager with 4 years of experienxce. '}
+                  {paragraphOne ||
+                    'I am Technical Project Manager with 5 years of experience working on websites.  '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {
-                    'Talking about my experience at a marketing agency making a lot of the same sites over and over and then moving in house to Nomad.'
+                    'I spent 2.5 years at a marketing agency specializing in magazines and websites for dentists. I spent my time as a Web Project Manager interfacing with clients about website specifications During my time we increased the production of websites by 82%.'
                   }
                 </p>
                 <p className="about-wrapper__info-text">
-                  {'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {
+                    'I then moved to Nomad Goods as an eCommerce Project Manager to manage the new website plaform and finalize the migration. I have worked on personal projects in using React and Progressive Web Applications so I was very interested in the direction Nomad is going. After 8 months I was promoted to Web Systems Manager where I currently manage web development, an ongoing relationship with Shogun working on platform improvments, and several apps and third part SAAS platforms.'
+                  }
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

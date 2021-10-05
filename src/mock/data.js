@@ -8,17 +8,19 @@ export const headData = {
 };
 
 // HERO DATA
+/*
 export const heroData = {
   title: 'Developer | Ecommerce',
   name: 'Alex Bramall',
   subtitle: 'Front End Dev',
   cta: 'Contact',
 };
+*/
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.JPG',
-  paragraphOne: 'Paragraph about a project that I did one time.',
+  paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
@@ -30,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Lipson.png',
     title: 'Lipson Dental Group',
-    info: '',
+    info: 'Role: Web Project Manager & Developer',
     info2: '',
     url: 'https://lipsondentalgroup.com/',
     repo: '', // if no repo, the button will not show up
@@ -39,20 +41,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'nomad.png',
     title: 'Nomad Goods',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Role: Web Systems Manager',
+    info2:
+      ' Headless Ecommerce website utilizing the Shogun Frontend platform. Shopify Top 100 Ecommerce website',
+    url: 'https://nomadgoods.com/',
+    repo: '', // if no repo, the button will not show up
   },
 
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Rappy Hour',
-    info: '',
+    title: 'Dr. Reyes-Viruet',
+    info: 'Role: Web Project Manager & Developer',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://dentistinfortmyers.com/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
