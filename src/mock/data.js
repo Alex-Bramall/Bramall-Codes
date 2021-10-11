@@ -50,7 +50,7 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'loruki.jpg',
+    img: 'loruki.png',
     title: 'Mock Cloud Hosting',
     info: 'Developer',
     info2: '',
