@@ -50,11 +50,11 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Dr. Reyes-Viruet',
-    info: 'Role: Web Project Manager & Developer',
+    img: 'loruki.jpg',
+    title: 'Mock Cloud Hosting',
+    info: 'Developer',
     info2: '',
-    url: 'https://dentistinfortmyers.com/',
+    url: 'https://alex-bramall.github.io/loruki-hosting/',
     repo: '', // if no repo, the button will not show up
   },
 ];
