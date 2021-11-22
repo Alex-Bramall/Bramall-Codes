@@ -31,7 +31,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Lipson.png',
-    title: 'Lipson Dental Group',
+    title: 'The Lipson Dental Group',
     info: 'Role: Web Project Manager & Developer',
     info2: '',
     url: 'https://lipsondentalgroup.com/',
